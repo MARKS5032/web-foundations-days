@@ -3,7 +3,7 @@ const loadButton = document.querySelector("#load-users");
 const filterInput = document.querySelector("#filter-input");
 const status = document.querySelector("#status");
 const usersList = document.querySelector("#users-list");
-
+ 
 let users = [];
 
 async function loadUsers() {
